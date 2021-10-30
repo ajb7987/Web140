@@ -1,7 +1,17 @@
 body{
-    background-image: url('my_homepage/hurdles.JPG');
+    background-image: url('hurdles.JPG');
 }
 h1{
-    background-image: url('my_homepage/gradient.jpg');
+    background-image: url('gradient.jpg');
     background-position: bottom;
+}
+@media screen and (min-width: 768px) {
+    .first-media-query {
+        color: red
+    }
+}
+@media screen and (max-width: 768px) {
+    .first-media-query {
+        color: blue
+    }
 }
